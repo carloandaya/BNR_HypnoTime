@@ -29,7 +29,16 @@
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
-        // Custom initialization
+        // ViewControllers have a tab bar item property
+        UITabBarItem *tbi = [self tabBarItem];
+        [tbi setTitle:@"Hypnosis"];
+        
+        // Create a UIImage from a file
+        // This will use Hypno@2x.png on retina display devices
+        UIImage *i = [UIImage imageNamed:@"Hypno.png"];
+        
+        // Put that image on the tab bar item
+        [tbi setImage:i];
     }
     return self;
 }

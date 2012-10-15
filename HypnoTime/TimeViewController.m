@@ -20,4 +20,20 @@
     [timeLabel setText:[formatter stringFromDate:date]];
 }
 
+- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
+{
+    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
+    if (self) {
+        UITabBarItem *tbi = [self tabBarItem];
+        [tbi setTitle:@"Time"];
+        
+        // Create a UIImage from a file
+        UIImage *i = [UIImage imageNamed:@"Time.png"];
+        
+        // Add the image to the tab bar item
+        [tbi setImage:i];
+    }
+    return self;
+}
+
 @end

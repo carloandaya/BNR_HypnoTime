@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		23F55328162B8879000ADE62 /* TimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23F55327162B8879000ADE62 /* TimeViewController.m */; };
 		23F5532B162B892F000ADE62 /* TimeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 23F5532A162B892F000ADE62 /* TimeViewController.xib */; };
+		23F55330162BE3A4000ADE62 /* Hypno.png in Resources */ = {isa = PBXBuildFile; fileRef = 23F5532C162BE3A4000ADE62 /* Hypno.png */; };
+		23F55331162BE3A4000ADE62 /* Hypno@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 23F5532D162BE3A4000ADE62 /* Hypno@2x.png */; };
+		23F55332162BE3A4000ADE62 /* Time.png in Resources */ = {isa = PBXBuildFile; fileRef = 23F5532E162BE3A4000ADE62 /* Time.png */; };
+		23F55333162BE3A4000ADE62 /* Time@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 23F5532F162BE3A4000ADE62 /* Time@2x.png */; };
 		23F97D93162AA07D00E95DD5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23F97D92162AA07D00E95DD5 /* UIKit.framework */; };
 		23F97D95162AA07D00E95DD5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23F97D94162AA07D00E95DD5 /* Foundation.framework */; };
 		23F97D97162AA07D00E95DD5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23F97D96162AA07D00E95DD5 /* CoreGraphics.framework */; };
@@ -26,6 +30,10 @@
 		23F55326162B8879000ADE62 /* TimeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeViewController.h; sourceTree = "<group>"; };
 		23F55327162B8879000ADE62 /* TimeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeViewController.m; sourceTree = "<group>"; };
 		23F5532A162B892F000ADE62 /* TimeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TimeViewController.xib; sourceTree = "<group>"; };
+		23F5532C162BE3A4000ADE62 /* Hypno.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Hypno.png; sourceTree = "<group>"; };
+		23F5532D162BE3A4000ADE62 /* Hypno@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Hypno@2x.png"; sourceTree = "<group>"; };
+		23F5532E162BE3A4000ADE62 /* Time.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Time.png; sourceTree = "<group>"; };
+		23F5532F162BE3A4000ADE62 /* Time@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Time@2x.png"; sourceTree = "<group>"; };
 		23F97D8E162AA07D00E95DD5 /* HypnoTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HypnoTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		23F97D92162AA07D00E95DD5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		23F97D94162AA07D00E95DD5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -89,6 +97,10 @@
 		23F97D98162AA07D00E95DD5 /* HypnoTime */ = {
 			isa = PBXGroup;
 			children = (
+				23F5532C162BE3A4000ADE62 /* Hypno.png */,
+				23F5532D162BE3A4000ADE62 /* Hypno@2x.png */,
+				23F5532E162BE3A4000ADE62 /* Time.png */,
+				23F5532F162BE3A4000ADE62 /* Time@2x.png */,
 				23F97DB7162AA48C00E95DD5 /* HypnosisView.h */,
 				23F97DB8162AA48C00E95DD5 /* HypnosisView.m */,
 				23F97DB3162AA39000E95DD5 /* HypnosisViewController.h */,
@@ -174,6 +186,10 @@
 				23F97DA7162AA07D00E95DD5 /* Default@2x.png in Resources */,
 				23F97DA9162AA07D00E95DD5 /* Default-568h@2x.png in Resources */,
 				23F5532B162B892F000ADE62 /* TimeViewController.xib in Resources */,
+				23F55330162BE3A4000ADE62 /* Hypno.png in Resources */,
+				23F55331162BE3A4000ADE62 /* Hypno@2x.png in Resources */,
+				23F55332162BE3A4000ADE62 /* Time.png in Resources */,
+				23F55333162BE3A4000ADE62 /* Time@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
