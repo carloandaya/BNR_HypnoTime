@@ -9,6 +9,7 @@
 #import "HypnoAppDelegate.h"
 #import "HypnosisViewController.h"
 #import "TimeViewController.h"
+#import "HypnoMapViewController.h"
 
 @implementation HypnoAppDelegate
 
@@ -19,9 +20,10 @@
     
     HypnosisViewController *hvc = [[HypnosisViewController alloc] init];
     TimeViewController *tvc = [[TimeViewController alloc] init];
+    HypnoMapViewController *mvc = [[HypnoMapViewController alloc] init];
     UITabBarController *tabBarController = [[UITabBarController alloc] init];
     
-    NSArray *viewControllers = [NSArray arrayWithObjects:hvc, tvc, nil];
+    NSArray *viewControllers = [NSArray arrayWithObjects:hvc, tvc, mvc, nil];
     [tabBarController setViewControllers:viewControllers];
     
     [[self window] setRootViewController:tabBarController];
