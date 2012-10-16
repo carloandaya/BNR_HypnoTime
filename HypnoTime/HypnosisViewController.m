@@ -47,6 +47,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
+    
+    NSLog(@"HypnosisViewController loaded its view.");
 }
 
 - (void)didReceiveMemoryWarning
